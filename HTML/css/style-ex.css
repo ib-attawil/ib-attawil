@@ -1,0 +1,48 @@
+
+.thumbnails{
+width: 200px;
+height: 200px;
+
+object-fit: cover;
+object-position: right;
+border-radius: 100px;
+border: 2px solid black;
+}
+.search-bar{
+    display: inline-block;
+    height:25px;
+    font-size: 1rem;
+    font: bold;
+    border: none;
+    box-shadow: 1px 1px 3px 1px rgb(187, 186, 186);
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 15px;
+   margin-right: 20px;
+   width: 370px;
+}
+.search-bar:focus{
+outline: none;
+}
+.label{
+    display: block;
+    margin:10px;
+    font-size: 1.2em;
+    margin-left: 15px;
+}
+p{
+    width: 370px;
+    text-align: center;
+    
+}
+span{
+    display: block;
+    width: 370PX;
+    text-align: center;
+}
+button{
+    display: inline-block;
+   
+  
+   width: 150PX;
+}
